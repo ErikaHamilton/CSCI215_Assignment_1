@@ -1,0 +1,85 @@
+/* Erika Hamilton */
+/* mainstyle.css */
+html {
+  height: 100%;
+  background-color: #F0F7F4;
+  text-align: center;
+  vertical-align: middle;}
+ul {
+  list-style-type: none;
+  display: inline;
+}
+li {
+  display: inline;
+  letter-spacing: 1px;
+  padding: 20px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+/* .head {
+  text-align: right;
+  font-family: 'Parisienne';
+  margin: 0;
+  padding: 5px;
+  font-size: 170%;
+  color: #773344;
+  text-shadow: 1px 2px 2px rgba(227, 181, 164, 0.75);
+  letter-spacing: 2px;
+} */
+li a {
+  text-decoration: none;
+}
+p { padding: 5px;}
+a {
+  text-decoration: none;
+  color: #773344;
+  transition:0.5s color ease;
+}
+.header {
+
+  text-shadow: 1px 2px 2px rgba(227, 181, 164, 0.75);
+  letter-spacing: 2px;
+}
+
+/* .navbar {
+    width: 100%;
+    height: 40px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    } */
+.navinfo {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-top: 15px;
+  height: 100px;
+}
+
+.wrapper {
+  padding-top: 600px;
+  position: relative;
+}
+/* #mainnav {
+  size: 300px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+} */
+
+ #headshot {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    float: left;
+    width: 32%;
+    height: 40%;
+    align: left;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* each div needs 3 styles */

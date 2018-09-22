@@ -6,39 +6,63 @@
   <meta charset="utf-8">
   <title> Erika Hamilton. </title>
   <meta name="viewport"  content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/jpg" href="portfolio/images/favicon.jpg">
+  <link rel="icon" type="image/jpg" href="images/favicon.jpg">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/mainstyles.css">
+  <script src="js/caro.js"></script>
 </head>
+<div class = "container">
+  <div class="nav">
+      <!-- nav, float right: About|Contact|Courses|  -->
+      <p id="nav">
+        Erika Hamilton. <br/>
+        Computer Science. Astrophysics. Physics. <br/>
+        Class of 2021. </p>
+      <ul id="mainnav">
+        <li><a href="index.html"> Home</a> </li>
+        <li><a href="contact.html"> Contact </a> </li>
+        <li><a href="courses.html"> Courses </a> </li>
+      </ul>
+  </div>
 
 <body>
+<!-- carousel -->
   <div class="wrapper">
-    <div class="nav">
-        <!-- nav, float right: About|Contact|Courses|  -->
-        <p id="nav">
-          Erika Hamilton. <br/>
-          Computer Science. Astrophysics. Physics. <br/>
-          Class of 2021. </p>
-        <ul id="mainnav">
-          <li><a href="index.html"> Home </li>
-          <li><a href="contact.html"> Contact </li>
-          <li><a href="courses.html"> Courses </li>
-        </ul>
+    <div class="carowrap">
+    <div class = "courseSlide fade">
+      <div class="course"> Past and Current Courses </div>
+      <img src = "caro/caroimg/courses.jpg" style = "width:100%">
+      <div class="coursetext">Past and Current Courses </div>
     </div>
-<!--[carousel?|215|220|250|] -->
-    <div id = "carousel">
-      <!-- insert images and course titles with CRNS and brief summary of the classes
-      with links that go to seperate pages that are similar to the contact, about pages. -->
+<!-- 215 -->
+    <div class = "courseSlide fade">
+      <div class="course"><a href="caro/215.html"> CSCI 215 </a> </div>
+      <img src = "caro/caroimg/215.jpg" style = "width:100%">
+      <div class="coursetext"> Web Programming </div>
     </div>
-    <ul id="caronav">
-        <li><a href="caro/215.html"> CSCI215 </li>
-        <li><a href="caro/115.html"> CSCI115</li>
-        <li><a href="caro/250.html"> CSCI250 </li>
-      </ul>
-    <!-- <div id="lightread">
-        <div class="info">
-       short course info if the carousel won't work properly,
-       maybe shove into carousel div w/ an id-->
-  <!-- </div> -->
+<!-- 115 -->
+    <div class = "courseSlide fade">
+      <div class="course"><a href="caro/115.html"> CSCI 115 </a> </div>
+      <img src = "caro/caroimg/115.jpg" style = "width:100%">
+      <div class="coursetext"> Website Design </div>
+    </div>
+<!-- 250 -->
+    <div class = "courseSlide fade">
+      <div class="course"><a href="caro/250.html"> CSCI 250 </a> </div>
+      <img src = "caro/caroimg/250.jpg" style = "width:100%">
+      <div class="coursetext">Introduction to Assembly Languages</div>
+    </div>
+<!-- next/prev -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!-- course links -->
+<div style="text-align:center">
+  <span class="coursenav" onclick="currentSlide(1)">Past and Present | </span>
+  <span class="coursenav" onclick="currentSlide(2)">CSCI 215 | </span>
+  <span class="coursenav" onclick="currentSlide(3)">CSCI 115 | </span>
+  <span class="coursenav" onclick="currentSlide(4)">CSCI 250 |</span>
+</div>
+</div>
 
   <div class = "footer">
     <div class="flinks">
@@ -50,6 +74,7 @@
     </div>
 
   </div>
+</div>
 </div>
 
 </body>
