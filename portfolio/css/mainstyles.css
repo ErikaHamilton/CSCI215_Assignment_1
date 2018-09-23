@@ -2,71 +2,78 @@
 /* mainstyle.css */
 html {
   height: 100%;
-  background-color: #F0F7F4;
-  text-align: center;
-  vertical-align: middle;}
-ul {
-  list-style-type: none;
-  display: inline;
+  background-color: #E8DDC2;
+  border-left: 4px;
+  border-right: 4px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: #DDA15E;
 }
 li {
-  display: inline;
+  display: inline-block;
   letter-spacing: 1px;
-  padding: 20px;
-  margin-left: -5px;
-  cursor: pointer;
+  padding: 10px;
 }
-/* .head {
-  text-align: right;
-  font-family: 'Parisienne';
-  margin: 0;
-  padding: 5px;
-  font-size: 170%;
-  color: #773344;
-  text-shadow: 1px 2px 2px rgba(227, 181, 164, 0.75);
-  letter-spacing: 2px;
-} */
+
 li a {
   text-decoration: none;
 }
-p { padding: 5px;}
+
 a {
   text-decoration: none;
-  color: #773344;
-  transition:0.5s color ease;
+  color: #FF7F7F;
 }
 .header {
-
-  text-shadow: 1px 2px 2px rgba(227, 181, 164, 0.75);
+  /* text-shadow: 1px 2px 2px RGBA(255,255,255,0.5); */
   letter-spacing: 2px;
+  display: inline-block;
+  width: 100%;
+  vertical-align: center;
+  padding-bottom: 20px;
+  height: 70px;
+  vertical-align: top;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  background-color: RGBA(8,14,17,0.86);
+  color: #E8DDC2;
+}
+.header ul {
+  margin: 0px;
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 20px;
+  color: #E8DDC2;
+
+
 }
 
-/* .navbar {
-    width: 100%;
-    height: 40px;
-    letter-spacing: 7.5px;
-    text-transform: uppercase;
-    } */
-.navinfo {
+.degrees {
   display: inline-block;
-  vertical-align: top;
   margin-right: 20px;
   margin-top: 15px;
   height: 100px;
+  padding-left: 10px;
 }
 
 .wrapper {
-  padding-top: 600px;
-  position: relative;
-}
-/* #mainnav {
-  size: 300px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 15px;
-} */
+  margin-top: 115px;
+  padding: 0px;
 
+}
+h1 {
+  font-size: 50px;
+}
+
+.container {
+
+  /* background-image: url("escheresque.png");
+  background-repeat: repeat; */
+}
  #headshot {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -81,5 +88,24 @@ a {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+a:hover {
+  color: #8BD6CE;
+  transition:0.5s color ease;
+}
+.footer {
+  /* background-image: url("escheresque-dark.png");
+  background-repeat: repeat; */
+  background-color:
+  bottom: 0;
+  vertical-align: baseline;
+  padding: 10px;
+  padding-bottom: -10px;
+  margin: 3px;
+  background-color: RGBA(8,14,17,0.86);
+  color: #E8DDC2;
 
+}
+.footer p {
+  text-align: right;
+}
 /* each div needs 3 styles */

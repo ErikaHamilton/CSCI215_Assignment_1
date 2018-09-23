@@ -3,22 +3,25 @@
 <!--courses-->
 <html lang="en">
 <head>
+  <div class="container">
   <meta charset="utf-8">
   <title> Erika Hamilton. </title>
   <meta name="viewport"  content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/jpg" href="images/favicon.jpg">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/mainstyles.css">
+  <link rel="stylesheet" href="css/caro.css">
   <script src="js/caro.js"></script>
 </head>
-<div class = "container">
-  <div class="nav">
+<div class = "header">
       <!-- nav, float right: About|Contact|Courses|  -->
-      <p id="nav">
+      <section class="degrees">
+      <p>
         Erika Hamilton. <br/>
         Computer Science. Astrophysics. Physics. <br/>
         Class of 2021. </p>
-      <ul id="mainnav">
+      </section>
+      <ul>
         <li><a href="index.html"> Home</a> </li>
         <li><a href="contact.html"> Contact </a> </li>
         <li><a href="courses.html"> Courses </a> </li>
@@ -29,35 +32,31 @@
 <!-- carousel -->
   <div class="wrapper">
     <div class="carowrap">
-    <div class = "courseSlide fade">
-      <div class="course"> Past and Current Courses </div>
-      <img src = "caro/caroimg/courses.jpg" style = "width:100%">
-      <div class="coursetext">Past and Current Courses </div>
-    </div>
 <!-- 215 -->
     <div class = "courseSlide fade">
-      <div class="course"><a href="caro/215.html"> CSCI 215 </a> </div>
-      <img src = "caro/caroimg/215.jpg" style = "width:100%">
-      <div class="coursetext"> Web Programming </div>
+      <div class="course"><a href="215.html"> CSCI 215 </a> </div>
+      <img src = "caroimg/215.jpg" style = "width:100%">
+      <div class="coursetext"><a href="215.html"> Web Programming </a></div>
     </div>
 <!-- 115 -->
     <div class = "courseSlide fade">
-      <div class="course"><a href="caro/115.html"> CSCI 115 </a> </div>
-      <img src = "caro/caroimg/115.jpg" style = "width:100%">
-      <div class="coursetext"> Website Design </div>
+      <div class="course"><a href="115.html"> CSCI 115 </a> </div>
+      <img src = "caroimg/115.jpg" style = "width:100%">
+      <div class="coursetext"><a href="115.html"> Website Design </a></div>
     </div>
 <!-- 250 -->
     <div class = "courseSlide fade">
-      <div class="course"><a href="caro/250.html"> CSCI 250 </a> </div>
-      <img src = "caro/caroimg/250.jpg" style = "width:100%">
-      <div class="coursetext">Introduction to Assembly Languages</div>
+      <div class="course"><a href="250.html"> CSCI 250 </a> </div>
+      <img src = "caroimg/250.jpg" style = "width:100%">
+      <div class="coursetext"><a href="250.html">Introduction to Assembly Languages</a></div>
     </div>
 <!-- next/prev -->
+<br/>
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 <!-- course links -->
+<br/>
 <div style="text-align:center">
-  <span class="coursenav" onclick="currentSlide(1)">Past and Present | </span>
   <span class="coursenav" onclick="currentSlide(2)">CSCI 215 | </span>
   <span class="coursenav" onclick="currentSlide(3)">CSCI 115 | </span>
   <span class="coursenav" onclick="currentSlide(4)">CSCI 250 |</span>
@@ -75,7 +74,7 @@
 
   </div>
 </div>
-</div>
+
 
 </body>
 </html>
