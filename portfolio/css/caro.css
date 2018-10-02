@@ -12,9 +12,9 @@
 .courseSlide {
     display: none;
 }
-.img {vertical-align: middle;
+.img {
+  vertical-align: middle;
   }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -39,20 +39,34 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: #8BD6CE;
 }
 
 /* Caption text */
+
+/* .course, .coursetext {
+this is a super ugly text shadow
+  text-shadow: 7px 0px 8px rgba(255, 255, 255, 1);
+} */
 .coursetext {
   color: #FF7F7F;
   font-size: 70px;
   position: absolute;
   bottom: 65px;
+
   text-align: center;
   width: 100%;
   top: 50%;
   width: auto;
   margin-top: -22px;
   padding: 20px;
+}
+.coursetext:hover, .course:hover {
+  color: #8BD6CE;
+  text-shadow: 7px 0px 8px RGBA(8,14,17,0.86);;
+  /* background-color: rgba(82, 137, 150, 1); */
+  /*  This can work, fix color and opacity and size to cover the images*/
+
 }
 
 /* top left */
@@ -76,8 +90,10 @@
 }
 
 .active, .coursenum:hover {
-  background-color: #717171;
+  background-color: #f2f2f2;
+  color: #8BD6CE;
 }
+
 
 /* Fading animation */
 .fade {

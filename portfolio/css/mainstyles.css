@@ -9,6 +9,9 @@ html {
   border-bottom: 0px;
   border-style: solid;
   border-color: #DDA15E;
+  font-family: 'Raleway', 'sans-serif';
+}
+.wrapper {
 }
 li {
   display: inline-block;
@@ -39,6 +42,7 @@ a {
   z-index: 500;
   background-color: RGBA(8,14,17,0.86);
   color: #E8DDC2;
+  font-family: 'Fjalla+One',
 }
 .header ul {
   margin: 0px;
@@ -48,10 +52,10 @@ a {
   padding-top: 30px;
   padding-right: 20px;
   color: #E8DDC2;
-
-
 }
-
+.heading p {
+  padding: 4px;
+  text-align: right;}
 .degrees {
   display: inline-block;
   margin-right: 20px;
@@ -63,6 +67,7 @@ a {
 .wrapper {
   margin-top: 115px;
   padding: 0px;
+
 
 }
 h1 {
